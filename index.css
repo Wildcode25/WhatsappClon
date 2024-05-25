@@ -88,17 +88,19 @@ nav span{
 }
 .chatContent li{
     display: flex;
+    flex-direction: column;
     margin: 10px;
-    width: 90%;
+    align-items: start;
+    gap: 5px;
     
 }
 .send{
-   justify-content: end;
+   align-items: end !important;
 }
 .message{
     display: grid;
     grid-template-columns: 1fr 1fr;
-
+    margin-left: 10px;
     padding: 10px 15px 0;
     border-radius: 10px;
     column-gap: 20px;
@@ -110,12 +112,15 @@ nav span{
 
 }
 .firtOutputMessage{
+    margin-left: 0;
+    padding-left: 22px;
     clip-path: polygon(49% 0, 100% 0, 100% 20%, 100% 100%, 5% 99%, 5% 23%, 0 1%);
 }
 .inputMessage{
     background-color: rgb(189, 254, 175);
 }
 .firstInputMessage{
+    padding-right: 22px;
     clip-path: polygon(49% 0, 100% 0, 94% 23%, 93% 100%, 0 100%, 0 52%, 0 1%);
 }
 .message p:nth-child(1){
