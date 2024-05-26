@@ -38,12 +38,12 @@
         </header>
         <ul class="chat_list">
           <li class="archivados"><i class="fi fi-rs-folder-download"></i></span><h2>Archivados</h2></li>
-          <li class="chatItem"><div><img src="./src/inosuke.webp" alt="" class="circle"></div><div class="chatItemInfo"><h2>Inosuke</h2><b style="color: green">6:12 p.m.</b></div><div class="chatItemInfo"><p>Yo soy la para</p> <div class="circle">1</div></div></li>
-          <li class="chatItem"><div><img src="./src/zenitsu.jpg" alt="" class="circle"></div><div class="chatItemInfo"><h2>Zenitsu</h2><b>4:14 p.m.</b></div><div class="chatItemInfo"><p>Donde esta Nezuko??? 😭</p></div></li>
-          <li class="chatItem"><div><img src="./src/rengoku.webp" alt="" class="circle"></div><div class="chatItemInfo"><h2>Rengoku</h2><b>3:04 p.m.</b></div><div class="chatItemInfo"><p>klk</p></div></li>
-          <li class="chatItem"><div><img src="./src/images.jpg" alt="" class="circle"></div><div class="chatItemInfo"><h2>Uzui</h2><b>9:00 a.m.</b></div><div class="chatItemInfo"><p>Dique vienes conmigo al distrito rojo</p></div></li>
-          <li class="chatItem"><div><img src="./src/tomioka.jpg" alt="" class="circle"></div><div class="chatItemInfo"><h2>Tomioka</h2><b>ayer</b></div><div class="chatItemInfo"><p>Dame banda</p></div></li>
-          <li class="chatItem"><div><img src="./src/mitsuri.jpg" alt="" class="circle"></div><div class="chatItemInfo"><h2>Mitsuri</h2><b>Miercoles</b></div><div class="chatItemInfo"><p>Okisss</p></div></li>
+          <li class="chatItem"><div><img src="./src/inosuke.webp" alt="" class="circle"></div><a href="#inosuke" class="chatItemInfo"><h2>Inosuke</h2><b style="color: green">6:12 p.m.</b></a><a href="#inosuke" class="chatItemInfo"><p>Yo soy la para</p> <div class="circle">1</div></a></li>
+          <li class="chatItem"><div><img src="./src/zenitsu.jpg" alt="" class="circle"></div><a href="#zenitsu" class="chatItemInfo"><h2>Zenitsu</h2><b>4:14 p.m.</b></a><a href="#zenitsu" class="chatItemInfo"><p>Donde esta Nezuko??? 😭</p></a></li>
+          <li class="chatItem"><div><img src="./src/rengoku.webp" alt="" class="circle"></div><a href="#rengoku" class="chatItemInfo"><h2>Rengoku</h2><b>3:04 p.m.</b></a><a href="#rengoku" class="chatItemInfo"><p>klk</p></a></li>
+          <li class="chatItem"><div><img src="./src/images.jpg" alt="" class="circle"></div><a href="#uzui" class="chatItemInfo"><h2>Uzui</h2><b>9:00 a.m.</b></a><a href="#uzui" class="chatItemInfo"><p>Dique vienes conmigo al distrito rojo</p></a></li>
+          <li class="chatItem"><div><img src="./src/tomioka.jpg" alt="" class="circle"></div><a href="#tomioka" class="chatItemInfo"><h2>Tomioka</h2><b>ayer</b></a><a href="#tomioka" class="chatItemInfo"><p>Dame banda</p></a></li>
+          <li class="chatItem"><div><img src="./src/mitsuri.jpg" alt="" class="circle"></div><a href="#Mitsuri" class="chatItemInfo"><h2>Mitsuri</h2><b>Miercoles</b></a><a href="#Mitsuri" class="chatItemInfo"><p>Okisss</p></a></li>
           <footer style="font-size: medium;">
             <i class="fi fi-sr-lock"></i> tus mensajes personales estan <b style="color: green;">cifrados de extremo a extremo.</b>
           </footer>
@@ -51,7 +51,7 @@
         
       </aside>
       <section class="chat">
-        <article>
+        <article id="tomioka">
           <header class="informationsHeader">
             <div class="chatItem">
               <div><img class="circle" src="./src/tomioka.jpg" alt=""></div>
@@ -74,21 +74,80 @@
               <div class="message outputMessage firtOutputMessage"><p>Y ete loco tirandome a esa hora</p><p>9:00 a.m.</p></div>
               <div class="message outputMessage"><p>Dame banda</p><p>9:01 a.m.</p></div>
             </li>
-            <li></li>
-            <li><div><p></p><b></b></div></li>
-            <li><div><p></p><b></b></div></li>
           </ul>
-
         </article>
-        <article>
-          <header></header>
-          <div></div>
+        <article id="inosuke">
+          <header class="informationsHeader">
+            <div class="chatItem">
+              <div><img class="circle" src="./src/inosuke.webp" alt=""></div>
+              <h2>Inosuke</h2>
+              <p class="chatItemInfo">Haz click aqui para obtener mas informacion.</p>
+            </div>
+            <div class="iconContainer">
+              <div style="width: 85px; height: 45px; padding: 15px; border: gray 1px solid; border-radius: 50px;">
+                <i class="fi fi-sr-video-camera-alt"></i>
+                <i style="scale: 1; margin-left: 10px;" class="fi fi-ts-angle-down"></i>
+                
+              </div>
+              <i class="fi fi-rr-search"></i>
+              <i title="Menu" class="fi fi-br-menu-dots-vertical"></i>
+            </div>
+          </header>
+          <ul class="chatContent">
+            <li class="send"><div class="inputMessage message firstInputMessage"><p>Dique fuiste el primero que te recuperaste</p><p>4:00 p.m.</p></div></li>
+            <li>
+              <div class="message outputMessage firtOutputMessage"><p>Yo soy la para</p><p>6:12 p.m.</p></div>
+            </li>
+          </ul>
         </article>
-        <article>
-          <header></header>
-          <div></div>
-        </article>
-        <div></div>
+        <article id="zenitsu">
+         <header class="informationsHeader">
+            <div class="chatItem">
+              <div><img class="circle" src="./src/zenitsu.jpg" alt=""></div>
+              <h2>Zenitsu</h2>
+              <p class="chatItemInfo">Haz click aqui para obtener mas informacion.</p>
+            </div>
+            <div class="iconContainer">
+              <div style="width: 85px; height: 45px; padding: 15px; border: gray 1px solid; border-radius: 50px;">
+                <i class="fi fi-sr-video-camera-alt"></i>
+                <i style="scale: 1; margin-left: 10px;" class="fi fi-ts-angle-down"></i>
+                
+              </div>
+              <i class="fi fi-rr-search"></i>
+              <i title="Menu" class="fi fi-br-menu-dots-vertical"></i>
+            </div>
+          </header>
+          <ul class="chatContent">
+            <li>
+              <div class="message outputMessage firtOutputMessage"><p>Locooo</p><p>4:14 p.m.</p></div>
+              <div class="message outputMessage"><p>Donde esta Nezuko??? 😭</p><p>4:14 p.m.</p></div>
+            </li>
+          </ul>
+          </article>
+          <article id="rengoku">
+            <header class="informationsHeader">
+              <div class="chatItem">
+                <div><img class="circle" src="./src/rengoku.webp" alt=""></div>
+                <h2>Rengoku</h2>
+                <p class="chatItemInfo">Haz click aqui para obtener mas informacion.</p>
+              </div>
+              <div class="iconContainer">
+                <div style="width: 85px; height: 45px; padding: 15px; border: gray 1px solid; border-radius: 50px;">
+                  <i class="fi fi-sr-video-camera-alt"></i>
+                  <i style="scale: 1; margin-left: 10px;" class="fi fi-ts-angle-down"></i>
+                  
+                </div>
+                <i class="fi fi-rr-search"></i>
+                <i title="Menu" class="fi fi-br-menu-dots-vertical"></i>
+              </div>
+            </header>
+            <ul class="chatContent">
+              <li class="send"><div class="inputMessage message firstInputMessage"><p>Klk Rengoku</p><p>3:00 p.m.</p></div></li>
+              <li>
+                <div class="message outputMessage firtOutputMessage"><p>klk</p><p>3:04 p.m.</p></div>
+              </li>
+            </ul>
+          </article>
       </section>
     </div>
   </body>

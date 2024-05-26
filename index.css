@@ -66,10 +66,12 @@ nav span{
     background-color: #e9e5e5;
     font-size: 20px;
 }
-
+a{
+    text-decoration: none;
+}
 .optionButton{
     display: inline-block;
-    text-decoration: none;
+    
     padding: 10px 20px;
     background-color: #e9e5e5;
     margin: 0 5px;
@@ -101,7 +103,7 @@ nav span{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-left: 10px;
-    padding: 10px 15px 0;
+    padding: 10px 15px 5px;
     border-radius: 10px;
     column-gap: 20px;
     overflow-wrap: break-word; /* Modern browsers */
@@ -120,7 +122,7 @@ nav span{
     background-color: rgb(189, 254, 175);
 }
 .firstInputMessage{
-    padding-right: 22px;
+    padding-right: 35px;
     clip-path: polygon(49% 0, 100% 0, 94% 23%, 93% 100%, 0 100%, 0 52%, 0 1%);
 }
 .message p:nth-child(1){
@@ -147,15 +149,13 @@ aside{
     border: 1px rgb(216, 213, 213) solid;
     position: relative;
 }
-
+.chat{
+    overflow: hidden;
+}
 .chatItem{
     display: grid;
     grid-template-columns: minmax(80px, 1fr) 6fr;
     padding:  15px 10px;
-    cursor: pointer;
-    
-    
-    
 }
 .chat_list .chatItem:hover{
         background-color: #e9e5e5;
